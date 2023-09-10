@@ -13,12 +13,8 @@ https://gazebosim.org/docs
 
 
 
-**Syntax:**
-Copy (cp) or Move (mv) files from one place to another:
-obsolete: sudo cp -r /home/andreas/Desktop/AirportSim/usr/share/gz/gz-sim7/worlds/
-obsolete: cp -a /home/andreas/Desktop/AirportSim/. /usr/share/gz/gz-sim7/worlds/
-/
-Working: sudo -H nautilus
+**Copy/Paste/Move files from /usr/:**
+sudo -H nautilus
 
 
 
