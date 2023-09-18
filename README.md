@@ -15,7 +15,7 @@ sudo -H nautilus
 
 **Run the simulation:**
 - Open 3 terminals
-- cd to catkin_ws_phd1 directory
+- cd ~/Desktop/catkin_ws_phd1
 - source every one: source devel/setup.bash
 - roscore
 - roslaunch beta_simulation beta.launch
