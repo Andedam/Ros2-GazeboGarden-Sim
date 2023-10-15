@@ -13,10 +13,18 @@ Ubuntu 20.04
 **Copy/Paste/Move files from /usr/:**
 sudo -H nautilus
 
+**Catvehicle:**
+- roslaunch catvehicle catvehicle_spawn.launch
+
 **Run the simulation:**
 - Modify vecadis_sim_dev and vecadis_sim to include/exclude aircraft and change .world
 - Change arg:=deicer_position in vecadis_sim_dev.launch from "behind_right_angled" to "TestCases" (.yaml)
 - rosrun vecadis_sim_bringup gzlauncher roslaunch vecadis_sim_bringup vecadis_sim_dev.launch
+
+
+
+**Run Case 15:**
+rosrun vecadis_sim_bringup gzlauncher roslaunch vecadis_sim_bringup vecadis_sim_dev.launch roslaunch catvehicle catvehicle_Case15.launch
 
 
 
