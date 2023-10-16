@@ -24,9 +24,17 @@ sudo -H nautilus
 
 
 **Run Case 15:**
-- roslaunch vecadis_sim_bringup Case15.launch
+- cd ~/repos/vecadis_nac/catkin_ws
+  - roslaunch vecadis_sim_bringup Case15.launch
 - cd ~/repos/vecadis_nac/catkin_ws/src/catvehicle/src
   - ./TestAhead.py
+ 
+**Run Case 8:**
+- cd ~/repos/vecadis_nac/catkin_ws/src/catvehicle/src
+  - roslaunch vecadis_sim_bringup Case8.launch
+- cd ~/repos/vecadis_nac/catkin_ws/src/catvehicle/src
+  - ./TestAhead.py
+
 
 
 
