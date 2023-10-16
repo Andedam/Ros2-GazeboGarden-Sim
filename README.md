@@ -24,8 +24,9 @@ sudo -H nautilus
 
 
 **Run Case 15:**
-rosrun vecadis_sim_bringup gzlauncher roslaunch vecadis_sim_bringup vecadis_sim_dev.launch roslaunch catvehicle catvehicle_Case15.launch
-
+- roslaunch vecadis_sim_bringup Case15.launch
+- cd ~/repos/vecadis_nac/catkin_ws/src/catvehicle/src
+  - ./TestAhead.py
 
 
 
